@@ -20,5 +20,5 @@ jobs:
       env:
         TELEGRAM_API_TOKEN: ${{ secrets.TELEGRAM_API_TOKEN }}
       
-      run: docker compose -f docker/production-docker-compose.yaml -p ci-wallet-webapp up --build -d --force-recreate
+      run: docker compose -f docker/production-docker-compose.yaml -p tap-wallet-bot up --build -d --force-recreate
  
