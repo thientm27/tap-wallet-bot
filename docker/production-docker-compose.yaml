@@ -14,7 +14,7 @@ services:
     container_name: tap-wallet-bot
     build:
       context: ..
-    env:
+    environment:
       TELEGRAM_API_TOKEN: ${TELEGRAM_API_TOKEN}
     ports:
         - 9991:9991
