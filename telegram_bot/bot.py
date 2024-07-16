@@ -6,7 +6,7 @@ class Bot:
         self.application = ApplicationBuilder().token(token).build()
     
     async def handle_start(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        photo_path = "assets/background.png"
+        photo_path = "assets/background-2.jpg"
         keyboard = [[InlineKeyboardButton("Open Tap Wallet", web_app=WebAppInfo("https://tapwallet.starci.net"))]]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
