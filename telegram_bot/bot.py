@@ -20,4 +20,4 @@ class Bot:
     def run(self):
         start_handler = CommandHandler('start', self.handle_start)  
         self.application.add_handler(start_handler)
-        self.application.run_polling()
+        self.application.run_polling() 
