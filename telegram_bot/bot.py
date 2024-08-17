@@ -6,7 +6,7 @@ class Bot:
         self.application = ApplicationBuilder().token(token).build()
     
     async def handle_start(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        photo_path = "assets/background-2.jpg"
+        photo_path = "assets/background-2.png"
         keyboard = [[InlineKeyboardButton("Open Game", web_app=WebAppInfo("https://wavemonster.starci.net/"))]]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
