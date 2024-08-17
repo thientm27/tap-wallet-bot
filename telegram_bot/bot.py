@@ -16,7 +16,7 @@ class Bot:
             caption="""🎉 Introducing Tap Wallet - a Telegram-based wallet offering simplicity, security, and limitless earning potential within the Aptos ecosystem.""",
             reply_markup=reply_markup
         )
-        
+         
     def run(self):
         start_handler = CommandHandler('start', self.handle_start)  
         self.application.add_handler(start_handler)
