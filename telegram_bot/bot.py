@@ -13,7 +13,7 @@ class Bot:
         await context.bot.send_photo(
             chat_id=update.effective_chat.id, 
             photo=open(photo_path, "rb"),
-            caption="""🎉 Introducing Tap Wallet - a Telegram-based wallet offering simplicity, security, and limitless earning potential within the Aptos ecosystem.""",
+            caption="""🎉 WaveMonster is a top-tier action survival game where you will face relentless waves of monstrous attacks. You must continuously move, dodge, and eliminate the swarming monsters coming at you. Can you survive each wave of assaults and emerge as the ultimate hero?""",
             reply_markup=reply_markup
         )
          
